@@ -1,0 +1,82 @@
+[
+ {
+  "i": 0,
+  "episode": 1000,
+  "file": "dqn_00_ep1000.jpg"
+ },
+ {
+  "i": 1,
+  "episode": 5000,
+  "file": "dqn_01_ep5000.jpg"
+ },
+ {
+  "i": 2,
+  "episode": 9000,
+  "file": "dqn_02_ep9000.jpg"
+ },
+ {
+  "i": 3,
+  "episode": 13000,
+  "file": "dqn_03_ep13000.jpg"
+ },
+ {
+  "i": 4,
+  "episode": 18000,
+  "file": "dqn_04_ep18000.jpg"
+ },
+ {
+  "i": 5,
+  "episode": 22000,
+  "file": "dqn_05_ep22000.jpg"
+ },
+ {
+  "i": 6,
+  "episode": 26000,
+  "file": "dqn_06_ep26000.jpg"
+ },
+ {
+  "i": 7,
+  "episode": 30000,
+  "file": "dqn_07_ep30000.jpg"
+ },
+ {
+  "i": 8,
+  "episode": 34000,
+  "file": "dqn_08_ep34000.jpg"
+ },
+ {
+  "i": 9,
+  "episode": 38000,
+  "file": "dqn_09_ep38000.jpg"
+ },
+ {
+  "i": 10,
+  "episode": 42000,
+  "file": "dqn_10_ep42000.jpg"
+ },
+ {
+  "i": 11,
+  "episode": 46000,
+  "file": "dqn_11_ep46000.jpg"
+ },
+ {
+  "i": 12,
+  "episode": 51000,
+  "file": "dqn_12_ep51000.jpg"
+ },
+ {
+  "i": 13,
+  "episode": 55000,
+  "file": "dqn_13_ep55000.jpg"
+ },
+ {
+  "i": 14,
+  "episode": 59000,
+  "file": "dqn_14_ep59000.jpg"
+ },
+ {
+  "i": 15,
+  "episode": 63000,
+  "file": "dqn_15_ep63000.jpg"
+ }
+]
