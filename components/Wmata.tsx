@@ -27,7 +27,7 @@ export default function Wmata() {
         </Reveal>
 
         <Reveal delay={90}>
-          <div className="indent two-col" style={{ marginTop: 40, alignItems: 'start' }}>
+          <div className="indent two-col" style={{ marginTop: 40 }}>
             <div>
               <p className="sublabel">Watch DQN learn · drag to scrub</p>
               <div className="frame-box">
