@@ -32,7 +32,7 @@
   --serif: 'Instrument Serif', Georgia, serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
   --ease: cubic-bezier(.22, .61, .36, 1);
-  --gut: 56px;
+  --gut: 72px;
 }
 
 * { box-sizing: border-box; }
@@ -52,7 +52,7 @@ a { color: inherit; }
 
 .wrap { max-width: 940px; margin: 0 auto; padding: 0 32px; }
 
-section { padding: 92px 0; border-bottom: 1px solid var(--wash); }
+section { padding: clamp(80px, 7vw, 128px) 0; border-bottom: 1px solid var(--wash); }
 section:last-of-type { border-bottom: none; }
 
 /* ---------- type ---------- */
@@ -60,17 +60,17 @@ section:last-of-type { border-bottom: none; }
   font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); margin: 0;
 }
 .display {
-  font-family: var(--serif); font-size: clamp(38px, 6.4vw, 68px);
+  font-family: var(--serif); font-size: clamp(40px, 5.6vw, 88px);
   line-height: 1.04; letter-spacing: -.018em; margin: 20px 0 0; font-weight: 400;
 }
 .display em { font-style: italic; color: var(--mark); }
 .lede {
-  font-family: var(--serif); font-size: clamp(18px, 2.1vw, 22px);
-  line-height: 1.62; color: var(--ink-soft); max-width: 56ch; margin: 0;
+  font-family: var(--serif); font-size: clamp(19px, 2.1vw, 23px);
+  line-height: 1.62; color: var(--ink-soft); max-width: 68ch; margin: 0;
 }
 .prose {
-  font-family: var(--serif); font-size: 18px; line-height: 1.68;
-  color: var(--ink-soft); max-width: 62ch;
+  font-family: var(--serif); font-size: 18.5px; line-height: 1.68;
+  color: var(--ink-soft); max-width: 78ch;
 }
 .prose p { margin: 0 0 18px; }
 .prose p:last-child { margin-bottom: 0; }
@@ -78,7 +78,7 @@ section:last-of-type { border-bottom: none; }
 .sec-head { display: flex; gap: 18px; align-items: baseline; margin-bottom: 14px; }
 .sec-num { font-size: 11px; letter-spacing: .12em; color: var(--mark); min-width: 28px; }
 .sec-title {
-  font-family: var(--serif); font-size: clamp(28px, 4vw, 42px);
+  font-family: var(--serif); font-size: clamp(30px, 3.6vw, 54px);
   line-height: 1.08; letter-spacing: -.012em; margin: 0; font-weight: 400;
 }
 .indent { margin-left: var(--gut); }
@@ -107,7 +107,7 @@ section:last-of-type { border-bottom: none; }
 
 /* ---------- stats ---------- */
 .stats { display: flex; flex-wrap: wrap; gap: 44px; }
-.stat-n { font-family: var(--serif); font-size: 42px; line-height: 1; letter-spacing: -.02em; }
+.stat-n { font-family: var(--serif); font-size: clamp(38px, 3.2vw, 52px); line-height: 1; letter-spacing: -.02em; }
 .stat-n span { font-size: 22px; }
 .stat-l { font-size: 10px; letter-spacing: .1em; text-transform: uppercase; color: var(--mute); margin-top: 8px; }
 
@@ -164,7 +164,7 @@ input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border: none; b
 .entry:hover { transform: translateX(4px); }
 .entry-i { font-size: 10px; color: var(--mark); padding-top: 5px; }
 .entry-t { font-family: var(--serif); font-size: 19px; line-height: 1.28; }
-.entry-d { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; color: var(--ink-faint); margin-top: 4px; max-width: 60ch; }
+.entry-d { font-family: var(--serif); font-size: 15.5px; line-height: 1.55; color: var(--ink-faint); margin-top: 4px; max-width: 82ch; }
 .entry-m { font-size: 10px; letter-spacing: .04em; color: var(--mute); margin-top: 7px; }
 .entry-m a { color: var(--mark); text-decoration: none; border-bottom: 1px solid var(--wash); }
 .entry-m a:hover { border-color: var(--mark); }
@@ -176,7 +176,7 @@ input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border: none; b
 .role-yr { font-size: 10.5px; color: var(--mute); letter-spacing: .04em; padding-top: 7px; }
 .role-t { font-family: var(--serif); font-size: 20px; line-height: 1.25; }
 .role-o { font-size: 10.5px; color: var(--mark); letter-spacing: .05em; margin-top: 4px; }
-.role-d { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink-faint); margin-top: 7px; max-width: 60ch; }
+.role-d { font-family: var(--serif); font-size: 16px; line-height: 1.55; color: var(--ink-faint); margin-top: 7px; max-width: 80ch; }
 
 .pubcard { background: var(--paper-2); border-radius: 10px; padding: 18px 20px; }
 .pub-t { font-family: var(--serif); font-style: italic; font-size: 18px; line-height: 1.4; margin-top: 7px; }
@@ -228,7 +228,7 @@ input[type=range]::-moz-range-thumb { width: 14px; height: 14px; border: none; b
 .rail-cv:hover { background: var(--mark) !important; }
 
 main { margin-left: 168px; }
-.wrap { max-width: 860px; margin: 0; padding: 0 48px; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 0 72px; }
 
 @media (max-width: 900px) {
   .rail {
